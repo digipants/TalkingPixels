@@ -1,0 +1,24 @@
+{
+  "name": "talkingpixels",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digipants/TalkingPixels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digipants/TalkingPixels/issues"
+  },
+  "homepage": "https://github.com/digipants/TalkingPixels#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
