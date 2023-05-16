@@ -228,6 +228,11 @@ th {
     font-style: normal
 }
 
+@font-face {
+    font-family: 'phosphate';
+    src: url("https://talkingpixels.co/assets/images/5e8b474f39b9b4a2799b13ce/PhosphateInline.ttf") format('truetype');
+}
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     font-family: 'digipants-icons' !important;
@@ -2462,7 +2467,7 @@ body {
     background-color: #161719;
     font-family: 'Bebas Neue', cursive;
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 24px;
 }
 
