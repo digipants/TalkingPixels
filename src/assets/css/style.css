@@ -231,6 +231,7 @@ th {
 @font-face {
     font-family: 'phosphate';
     src: url("https://talkingpixels.co/assets/images/5e8b474f39b9b4a2799b13ce/PhosphateInline.ttf") format('truetype');
+    font-display: auto;
 }
 
 [class^="w-icon-"],
