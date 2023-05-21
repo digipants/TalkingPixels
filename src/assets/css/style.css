@@ -2527,6 +2527,7 @@ p {
 
 a {
     color: #ffa61e;
+    text-decoration: none;
 }
 
 ul {
@@ -6850,7 +6851,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     padding: 4vh 2vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
