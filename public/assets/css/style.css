@@ -6440,13 +6440,14 @@ figcaption {
 }
 
 .logo-description-2 {
-    font-family: metropolis;
+    font-family: metropolis, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-top: 2px;
     margin-left: 1px;
     font-size: 9px;
-    line-height: 16px;
-    letter-spacing: 2.2px;
-    text-transform: uppercase;
+    line-height: 1px;
+    letter-spacing: 2px;
 }
 
 .menu-icon {
@@ -6640,7 +6641,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 16px;
+    margin-left: 6px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -6756,7 +6757,7 @@ figcaption {
 }
 
 .follow-link.facebook:hover {
-    background-color: #3b5998;
+    background-color: #e64906;
 }
 
 .follow-link.instagram:hover {
@@ -8705,7 +8706,7 @@ figcaption {
     }
 
     .logo-info {
-        margin-left: 14px;
+        margin-left: 4px;
     }
 
     .follow {
