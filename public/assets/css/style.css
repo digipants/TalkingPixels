@@ -234,6 +234,12 @@ th {
     font-display: auto;
 }
 
+@font-face {
+    font-family: 'metropolis';
+    src: url("https://talkingpixels.co/assets/images/5e8b474f39b9b4a2799b13ce/metropolis.thin.otf") format('.otf');
+    font-display: auto;
+}
+
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     font-family: 'digipants-icons' !important;
@@ -3562,11 +3568,11 @@ figcaption {
 }
 
 .social-button.twitter:hover {
-    background-color: #2aa3f0;
+    background-color: #e64906;
 }
 
 .social-button.facebook:hover {
-    background-color: #3b5998;
+    background-color: #25d366;
 }
 
 .social-button.instagram:hover {
@@ -3574,7 +3580,7 @@ figcaption {
 }
 
 .social-button.vimeo:hover {
-    background-color: #1ab7ea;
+    background-color: #0cc;
 }
 
 .social-button.youtube:hover {
@@ -6434,6 +6440,7 @@ figcaption {
 }
 
 .logo-description-2 {
+    font-family: metropolis;
     margin-top: 2px;
     margin-left: 1px;
     font-size: 9px;
@@ -6745,7 +6752,7 @@ figcaption {
 }
 
 .follow-link.twitter:hover {
-    background-color: #2aa3f0;
+    background-color: #25d366;
 }
 
 .follow-link.facebook:hover {
@@ -6761,7 +6768,7 @@ figcaption {
 }
 
 .follow-link.vimeo:hover {
-    background-color: #1ab7ea;
+    background-color: #0cc;
 }
 
 .follow-link.linkedin:hover {
