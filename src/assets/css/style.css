@@ -3666,6 +3666,9 @@ figcaption {
 .text-big {
     font-size: 17px;
     line-height: 32px;
+    font-family: metropolis, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .no-padding {
