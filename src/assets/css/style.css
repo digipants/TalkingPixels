@@ -150,7 +150,6 @@ select {
 button,
 html input[type="button"],
 input[type="reset"] {
-    -webkit-appearance: button;
     cursor: pointer
 }
 
@@ -178,10 +177,6 @@ input[type="radio"] {
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
     height: auto
-}
-
-input[type="search"] {
-    -webkit-appearance: none
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -243,7 +238,6 @@ th {
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     font-family: 'digipants-icons' !important;
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -347,10 +341,6 @@ html.w-mod-touch * {
     border-radius: 0
 }
 
-input.w-button {
-    -webkit-appearance: button
-}
-
 html[data-w-dynpage] [data-w-cloak] {
     color: transparent !important
 }
@@ -409,7 +399,6 @@ html[data-w-dynpage] [data-w-cloak] {
     text-transform: inherit;
     list-style-type: disc;
     text-shadow: none;
-    font-smoothing: auto;
     vertical-align: baseline;
     cursor: inherit;
     white-space: inherit;
@@ -2529,6 +2518,7 @@ p {
     margin-bottom: 24px;
     font-size: 15px;
     line-height: 24px;
+    font-family: 'metropolis', sans-serif;
 }
 
 a {
@@ -3666,8 +3656,7 @@ figcaption {
 .text-big {
     font-size: 17px;
     line-height: 32px;
-    font-family: metropolis, sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
